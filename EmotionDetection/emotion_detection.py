@@ -34,6 +34,6 @@ def emotion_detector(text_to_analyze):
     return emo_scores
 
 if (__name__ == '__main__'):
-    formatted_text = emotion_detector("I am so happy today")
+    formatted_text = emotion_detector("I love this new technology")
     print(formatted_text)
 
